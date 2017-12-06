@@ -1,0 +1,22 @@
+<ion-view id="doacoes">
+  <ion-nav-title>
+    <div class="titulos">DOAÇÕES</div>
+  </ion-nav-title>
+  <ion-content class="fundo" style="text-align: center">
+    <div class="card" style="padding-bottom: 25px; border-radius: 5px">
+      <div class="text">Selecione um método para inserir os dados  da sua nota fiscal</div>
+      <div ng-controller="doacoesCtrl">
+        <button class="button button-positive" style="width: 200px" ng-click="scanBarcode()">
+          <i class="ion-ios-camera-outline" style="font-size:25px; float: left;"></i>
+           Scan
+        </button>
+      </div>
+      <div style="margin: 10px auto" ng-controller="insercaoCtrl">
+        <button type="submit" class="button button-positive" style="width: 200px" ng-click="goInsercao()">
+           <i class="ion-ios-compose-outline" style="font-size:25px; float: left;"></i>
+            Inserção
+        </button>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

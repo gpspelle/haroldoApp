@@ -1,0 +1,29 @@
+<ion-view id="doacoes">
+  <ion-nav-title>
+    <div class="titulos">DOAÇÕES</div>
+  </ion-nav-title>
+
+  <ion-content class="fundo" ng-controller="insercaoCtrl">
+    <div class="card" style="padding-bottom: 25px; border-radius: 5px">
+      <div class="text">
+        Preencha os campos abaixo para doar a sua nota fiscal
+      </div>
+      <div class="text">Chave de acesso (só números):</div>
+      <form ng-submit="submit()">
+          <label class="item item-input item-stacked-label">
+            <input type="text" name="qr" ng-model="data.qr">
+          </label>
+          <div style="text-align: center">
+            <input class="button button-positive" style="width: 80%; margin-top: 25px" 
+                                    type="submit" name="submit" value="Enviar">
+          </div>
+        </div>
+      </form>
+    </div>
+       <div class="card">
+         <div class="item item-text-wrap">
+           Response: <b ng-bind="response"></b>
+         </div>
+       </div>
+  </ion-content>
+</ion-view>

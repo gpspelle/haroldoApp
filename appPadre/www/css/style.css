@@ -1,0 +1,199 @@
+.titulos {
+
+  text-decoration: none;
+  text-align: center;
+  margin: auto;
+  font-size: 16px;
+}
+
+#doacoes .text {
+
+  font-size: 16px;
+  padding: 20px 20px 20px 20px;
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  webkit-hyphens: auto;
+  moz-hyphens: auto;
+  ms-hyphens: auto;
+  hyphens: auto;
+}
+
+#insercao.text {
+
+  font-size: 16px;
+  padding: 30px 30px 30px 30px;
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  webkit-hyphens: auto;
+  moz-hyphens: auto;
+  ms-hyphens: auto;
+  hyphens: auto;
+}
+#sobre article{
+
+  font-family: open sans;
+  font-size: 12px;
+  padding: 8px 8px 8px 8px;
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  text-align: justify;
+  webkit-hyphens: auto;
+  moz-hyphens: auto;
+  ms-hyphens: auto;
+  hyphens: auto;
+}
+
+#tuto article{
+
+  font-family: open sans;
+  font-size: 12px;
+  padding: 8px 8px 8px 8px;
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  text-align: justify;
+  webkit-hyphens: auto;
+  moz-hyphens: auto;
+  ms-hyphens: auto;
+  hyphens: auto;
+}
+
+.menu.menu-left{
+  width: calc(100% - 130px) !important;
+}
+.menu-open .menu-content{
+  transform: translate3d(calc(100% - 140px), 0px, 0px) !important;
+}
+
+.my-container {
+  background-image:  url("../img/bluePaper.jpg");
+  background-repeat: repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  position: absolute;
+}
+.item.transp {
+  background-color: transparent;
+  color: #fff;
+  padding-right: 0;
+}
+.transp .item-content {
+  background-color: transparent !important;
+  color: #fff;
+  padding-right: 0;
+}
+
+.gradient {
+  background-image:  url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTPLmTFp-N4Ah7bgAbWuziAwbLCLCIPp2RDgVuZOiQB5p7oRYgs");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  position: relative;
+  height: 120px;
+}
+
+#tuto .fundo {
+
+  background-image:  url("../img/fundoBranco2.jpg");
+  background-repeat: repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  position: absolute;
+}
+
+#doacoes .fundo {
+  background-image:  url("../img/fundoBranco2.jpg");
+  background-repeat: repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  position: absolute;
+
+}
+#insercao .fundo {
+  background-image:  url("../img/fundoAzul5.jpg");
+  background-repeat: repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  position: absolute;
+
+}
+#sobre .fundo {
+
+  background-image:  url("../img/fundoBranco2.jpg");
+  background-repeat: repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  height: 100%;
+  position: absolute;
+  background-size: cover;
+}
+#sobre .logo {
+
+  height: 250px;
+  width: 100%;
+}
+
+#tuto .logo {
+
+  width: 75%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+#sobre .msg {
+
+  color: whitesmoke;
+  font-size: 24px;
+  position: absolute;
+  margin-top: -80px;
+  margin-left: 30px;
+}
+
+.preto{
+
+  filter: contrast(150%);
+}
+
+#tuto .fundo_1 {
+
+  position: relative;
+  background-color: #4F94CD;
+}
+
+#tuto .fundo_2 {
+
+  background-color:  #9AC0CD;
+}
+.fundo_2 {
+
+  position: relative;
+  bottom: 10px;
+  background-color:  #9AC0CD;
+}
+
+#home .logo{
+
+  position: relative;
+  width: 100%;
+}
+
+#home .msg {
+
+  text-align: center;
+  color: white;
+}
